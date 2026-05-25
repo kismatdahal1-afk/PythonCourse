@@ -1,0 +1,8 @@
+print("Hello world")
+print("My name is Kismat.")
+print(999)
+print("hello")
+print(99+66)
+print(99-66)
+print(9*6)
+print(8/4)
