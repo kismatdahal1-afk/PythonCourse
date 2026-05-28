@@ -110,4 +110,11 @@ str = "hi its me kismat"
 print(str.find("k"))     #Output: 10
 print(str.find("hi"))    #Output: 0
 
-print(str.find("xyz"))
+print(str.find("xyz"))   #Output: -1
+
+# The count() function is used to count the number of occurrences of a specific substring in a string. It takes one argument, the substring to be counted. The count() function returns the number of occurrences of the specified substring in the string.
+
+str = "hi its me kismat"
+print(str.count("i"))   #Output: 3
+print(str.count("k"))   #Output: 1
+print(str.count("z"))   #Output: 0
