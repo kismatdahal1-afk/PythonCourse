@@ -1,3 +1,4 @@
+
 # String operations in Python
 
 str1 = "Hi its me Kismat"
@@ -19,7 +20,7 @@ str4 = print("HI guys its me Kismat.\n I am learning python and I am loving it.\
 
 
 #concatenation of strings
-
+# In Python, we can concatenate two or more strings using the + operator. The + operator is used to join two or more strings together.
 str5 = "Hello guys "
 str6 = "Welcome to Python programming"
 str7 = str5 + str6
@@ -54,3 +55,59 @@ print(char3)    #Output: t
 
 char4 = val1[-3]
 print(char4)    #Output: m
+
+
+
+#slicing of a string
+# In Python, we can also access a range of characters in a string using slicing. The syntax for slicing is string[start:end] where start is the index of the first character and end is the index of the last character. The end index is not included in the slice.
+#negative indexing is called slicing from the end of the string. The syntax for slicing from the end is string[-start:-end] where start is the index of the first character from the end and end is the index of the last character from the end. The end index is not included in the slice.
+
+val2 = "Hi its me Kismat"
+slice1 = val2[0:5]
+print(slice1)   #Output: Hi its
+
+str = "Apple"
+str[-3:-1]   #Output: pl 
+
+
+#string functions
+# In Python, there are many built-in functions that we can use to manipulate strings. Some of the commonly used string functions are:
+
+
+#the endswith() function is used to check if a string ends with a specific suffix. It returns True if the string ends with the specified suffix, otherwise it returns False.
+
+str = "hi its me kismat"
+print(str.endswith("mat")) #Output: True
+
+print(str.endswith("me"))   #Output: False
+
+
+#the capitalize() function is used to convert the first character of a string to uppercase and the rest of the characters to lowercase.
+str = "hi its me kismat"
+
+print(str.capitalize())  #Output: Hi its me kismat
+print(str)              #Output: hi its me kismat
+
+# The capitalize() function does not change the original string, it returns a new string with the first character capitalized and the rest of the characters in lowercase. If we want to change the original string, we can assign the result of the capitalize() function back to the original string variable.
+str = str.capitalize()
+print(str)           #Output: Hi its me kismat
+
+
+# The replace() function is used to replace a specific substring with another substring in a string. It takes two arguments, the first argument is the substring to be replaced and the second argument is the substring to replace it with. The replace() function returns a new string with the specified substring replaced.
+
+str = "hi its me kismat"
+print(str.replace("kismat", "python"))  #Output: hi its me python
+print(str)                              #Output: hi its me kismat
+
+# The replace() function does not change the original string, it returns a new string with the specified substring replaced. If we want to change the original string, we can assign the result of the replace() function back to the original string variable.
+
+print(str.replace("i", "s"))            #Output: hs sts me ksmat
+print(str)                              #Output: hi its me kismat
+
+
+# The find() function is used to find the index of the first occurrence of a specific substring in a string. It takes one argument, the substring to be found. The find() function returns the index of the first occurrence of the specified substring, or -1 if the substring is not found.
+str = "hi its me kismat"
+print(str.find("k"))     #Output: 10
+print(str.find("hi"))    #Output: 0
+
+print(str.find("xyz"))

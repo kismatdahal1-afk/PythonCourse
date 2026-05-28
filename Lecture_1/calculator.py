@@ -26,6 +26,8 @@ elif A == 5:
 elif A == 6:
     print("The result of raising the first number to the power of the second number is:", pow)
 
+
+
     
 #wap a program to input 2 floating numbers & print their average.
 
@@ -35,6 +37,8 @@ b = float(input("Enter a number: "))
 average = ((a + b)/2)
 
 print("The average of given two numbers is: ", average)
+
+
 
 
 #wap a program to input 2 numbers & print the result of their comparison (greater than, less than, equal to)

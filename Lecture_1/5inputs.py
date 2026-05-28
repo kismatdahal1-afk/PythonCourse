@@ -1,4 +1,5 @@
-"""{
+# Taking input from the user
+
 input("Enter Your Name:")
 
 input("Enter Your Age:")
@@ -16,10 +17,6 @@ name = str(input("Enter your name:"))
 print("Welcome", name)
 print(type(name))
 
-x = input("Enter your age:") # input function always returns a string
-print("Your age is : ", x)
-print(type(x)) 
-
 
 # To convert the input to an integer, we can use the int() function
 
@@ -33,12 +30,12 @@ salary = float(input("Enter your salary:"))
 print("Your salary is:", salary)
 print(type(salary))
 
-
+#To convert the input to a string, we can use the str() function but it is not necessary as the input() function already returns a string.
 name = str(input("Enter your name:"))
 print("Welcome", name)
 print(type(name))
-}"""
 
+# we are takig multiple inputs at first and then printing them together
 name = input("Enter your name: ")
 Grade = int(input("Enter your grade: "))
 age = int(input("Enter your age: "))
