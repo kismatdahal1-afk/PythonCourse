@@ -40,5 +40,3 @@ if(num % 7 == 0):
 else:
 
     print(num, "is not multiple of 7.")    
-
-    

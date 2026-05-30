@@ -73,6 +73,14 @@ str[-3:-1]   #Output: pl
 #string functions
 # In Python, there are many built-in functions that we can use to manipulate strings. Some of the commonly used string functions are:
 
+#summary of string functions:
+
+# 1. endswith() - checks if a string ends with a specific suffix
+# 2. capitalize() - converts the first character of a string to uppercase and the rest of the characters to lowercase
+# 3. replace() - replaces a specific substring with another substring in a string
+# 4. find() - finds the index of the first occurrence of a specific substring in a string
+# 5. count() - counts the number of occurrences of a specific substring in a string
+
 
 #the endswith() function is used to check if a string ends with a specific suffix. It returns True if the string ends with the specified suffix, otherwise it returns False.
 
@@ -118,3 +126,4 @@ str = "hi its me kismat"
 print(str.count("i"))   #Output: 3
 print(str.count("k"))   #Output: 1
 print(str.count("z"))   #Output: 0
+
